@@ -1,0 +1,16 @@
+.game_pad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.gap {
+  height: 1.5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}

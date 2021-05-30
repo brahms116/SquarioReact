@@ -1,0 +1,20 @@
+@import "./global.css";
+.game_button {
+  font-family: "Righteous", cursive;
+  color: #ffffff;
+  border-radius: 6.25rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12rem;
+  padding: 2rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .game_button {
+    font-size: 3.75rem;
+    width: 25rem;
+    padding: 3rem;
+  }
+}

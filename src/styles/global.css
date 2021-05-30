@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  font-weight: 400;
+  box-sizing: border-box;
+  --text: #515151;
+  --green: #80c947;
+  --green_hover: #b6e98f;
+  --blue: #1862b9;
+  --blue_hover: #6ea1dc;
+  --gray: #c4c4c4;
+  --red: #c51717;
+  padding: 0;
+  margin: 0;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+html {
+  font-family: "Lato", sans-serif;
+}

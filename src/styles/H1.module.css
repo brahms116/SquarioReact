@@ -1,0 +1,7 @@
+@import "./global.css";
+
+.text {
+  font-family: "Righteous", cursive;
+  color: var(--text);
+  font-size: 4rem;
+}

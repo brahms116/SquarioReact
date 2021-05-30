@@ -1,0 +1,19 @@
+@import "./global.css";
+
+.button {
+  border-radius: 2.25rem;
+  background: var(--green);
+  display: inline-flex;
+  padding: 0.75rem 2.75rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:not(.disabled):hover {
+  background: var(--green_hover);
+  cursor: pointer;
+}
+
+.disabled {
+  background: var(--gray);
+}

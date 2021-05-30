@@ -1,0 +1,31 @@
+@import "./global.css";
+
+.text_input {
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  color: var(--text);
+  border: none;
+  border-radius: 4rem;
+  border-width: 1px;
+  font-size: 0.875rem;
+  border-color: var(--gray);
+  box-shadow: none;
+  border-style: solid;
+  outline: none;
+  appearance: none;
+  padding: 0.875rem 1.5rem;
+  position: relative;
+  left: -0.75rem;
+}
+
+.text_input::placeholder {
+  color: var(--gray);
+  font-weight: 400;
+}
+.error {
+  color: var(--red);
+  font-size: 0.75rem;
+}
+.text_input:focus {
+  border-color: var(--text);
+}
